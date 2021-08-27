@@ -10,7 +10,7 @@ install:
 - cd ..
 branches:
   only:
-  - master
+  - main
 deploy:
   provider: heroku
   api_key:
