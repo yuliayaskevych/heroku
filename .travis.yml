@@ -3,14 +3,12 @@ node_js:
 - lts/*
 before_install:
 - npm install -g @angular/cli
-install:
-- npm install
-- cd server
-- npm install
-- cd ..
+install: npm install
+
 branches:
   only:
   - main
+
 deploy:
   provider: heroku
   api_key:
