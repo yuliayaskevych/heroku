@@ -14,6 +14,3 @@ deploy:
   api_key:
     secure: dd34f4bc-2e81-4e06-b866-9f6e7d876fa8
   app: steam-clone
-  on:
-    repo: yuliayaskevych/heroku
-  skip_cleanup: 'true'
